@@ -1,0 +1,21 @@
+{
+  "errors": {
+    "INTERNAL_SERVER_ERROR": "An unexpected error occurred. Please try again later.",
+    "NOT_FOUND": "The requested resource was not found.",
+    "UNAUTHORIZED": "Authentication is required to access this resource.",
+    "FORBIDDEN": "You do not have permission to perform this action.",
+    "BAD_REQUEST": "The request contains invalid data.",
+    "CONFLICT": "A conflict occurred with an existing resource.",
+    "PLAN_NOT_FOUND": "Listing plan for category '{category}' was not found.",
+    "PROMO_EXPIRED": "The promo code has expired or is invalid.",
+    "INVALID_TOKEN": "Invalid authentication token.",
+    "TOKEN_EXPIRED": "Authentication token has expired."
+  },
+  "messages": {
+    "HEALTH_OK": "ListedWheels API is operational.",
+    "AUTH_LOGOUT_SUCCESS": "Successfully logged out.",
+    "ACCOUNT_DELETED": "Account data deletion request registered.",
+    "LISTING_CREATED": "Listing draft created successfully.",
+    "LISTING_MARKED_SOLD": "Listing marked as sold."
+  }
+}

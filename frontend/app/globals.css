@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FAF8F4;
+  --foreground: #0F1B2D;
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Tabular numbers for price display and tables */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Subtle paper grain texture */
+.paper-grain {
+  position: relative;
+}
+
+.paper-grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(15, 27, 45, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+  opacity: 0.6;
+}
+
+/* Accessibility focus ring */
+*:focus-visible {
+  outline: 2px solid #F5A524;
+  outline-offset: 2px;
+}
